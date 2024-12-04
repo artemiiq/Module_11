@@ -2,7 +2,7 @@ import java.util.Iterator;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
-public class mixElements {
+public class MixElements {
     public static <T> Stream<T> zip(Stream<T> first, Stream<T> second) {
         Iterator<T> firstIterator =  first.iterator();
         Iterator<T> secondIterator = second.iterator();

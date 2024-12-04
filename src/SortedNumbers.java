@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class sortedNumbers {
+public class SortedNumbers {
     public static String printSortedNumbers(List<String> numbers) {
         List<Integer> numbersList = numbers.stream()
                 .flatMap(s -> Arrays.stream(s.split(", ")))

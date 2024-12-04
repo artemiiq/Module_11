@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 
-public class sortedUpperNames {
+public class SortedUpperNames {
     public static List<String> printSortedUpperNames(List<String> names) {
         return names.stream()
                 .map(String::toUpperCase)

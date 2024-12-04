@@ -1,7 +1,7 @@
 import java.util.stream.Stream;
 
 
-public class infinityRandomNumber {
+public class InfinityRandomNumber {
     public static Stream<Long> generateRandomNumber(long a, long c, long m, long seed) {
         return Stream.iterate(seed, x -> (a * x + c) % m);
     }
